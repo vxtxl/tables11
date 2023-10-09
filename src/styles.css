@@ -1,0 +1,47 @@
+.offcanvas-enter {
+  transform: translateX(-100%);
+}
+
+.offcanvas-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.offcanvas-exit {
+  transform: translateX(0);
+}
+
+.offcanvas-exit-active {
+  transform: translateX(-100%);
+  transition: transform 300ms ease-in-out;
+}
+
+Button.wide-button {
+
+  width: 45px;
+  height: 45px;
+  background-color: #424e6d;
+  text-align: center;
+  position: absolute;
+
+  top: 30px;
+  left: 30px;
+
+}
+
+.button-1 {
+
+  padding: 20px;
+  margin: 20px;
+  background-color: #071945;
+
+}
+
+.button-1:hover {
+  background: #0078BF
+}
+
+
+.offcanvas-header .btn-close:focus {
+  box-shadow: none;
+}
